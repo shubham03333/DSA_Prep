@@ -993,3 +993,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2024-05-28 16:21:27.999
 !MESSAGE No repository found at https://www.codetogether.com/updates/ci/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2024-05-28 16:23:24.364
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
