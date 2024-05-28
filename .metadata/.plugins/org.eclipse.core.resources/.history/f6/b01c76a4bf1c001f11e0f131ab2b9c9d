@@ -1,0 +1,35 @@
+package com.sunbeam;
+
+public class MaxWealth {
+
+	public static void main(String[] args) {
+		
+		int[][] wealth= new int[][]{{1,2,3},
+									{3,2,1}
+								   };
+			
+		int RichestCust=findRichest(wealth);
+		 						   
+		}
+
+	private static int findRichest(int[][] wealth) {
+		
+		int amt=wealth[0][0];
+		for(int cust=0;cust<wealth.length;cust++) {
+			
+			for(int acc=0;acc<wealth[cust].length;acc++) {
+				
+				while(cust<=wealth[cust].length) {
+					amt=+wealth[cust][acc];
+				}
+				
+			}
+		}
+		return amt;
+	}
+	
+	
+
+	}
+
+

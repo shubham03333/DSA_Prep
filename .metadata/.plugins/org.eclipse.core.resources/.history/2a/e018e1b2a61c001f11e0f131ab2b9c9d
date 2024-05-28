@@ -1,0 +1,26 @@
+package ArraysAndArrayList;
+
+public class MaxValueInArray {
+
+	public static void main(String[] args) {
+		
+		int[] arr=new int[]{11,22,33,44,55};
+		int maxVal=max(arr);
+		
+		System.out.println("max value in array is: "+maxVal);
+		
+
+	}
+
+	private static int max(int[] arr) {
+		int maxValue=arr[0];
+		for(int i=1; i<arr.length;i++) {
+			if(maxValue>arr[i])
+				return maxValue;
+			else
+				return arr[i];
+		}
+		return -1;
+	}
+
+}

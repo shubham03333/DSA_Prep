@@ -1,0 +1,38 @@
+package com.sunbeam;
+
+import java.util.Arrays;
+
+public class SortingMain {
+
+	public static void selectionSort(int [] a) {
+		
+		for(int i=0;i<a.length;i++) {
+			
+			for(int j=i+1;j<a.length;j++) {
+				if(a[i]>a[j]) {
+					int temp=a[i];  //swapping logic
+					a[i]=a[j];
+					a[j]=temp;
+				}
+				
+				System.out.println(Arrays.toString(a));
+			}
+		}
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		int [] arr= {5,4,2,6,3,2,1};
+		
+		System.out.println("Array before sorting: \n"+ Arrays.toString(arr));
+		
+		System.out.println("Array After sorting:");
+		selectionSort(arr);
+		
+		
+
+	}
+
+}
